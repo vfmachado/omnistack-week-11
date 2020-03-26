@@ -25,7 +25,7 @@ module.exports = {
             uf
         });
 
-        res.status(200).json({ msg: "Data received on server", data: data, generatedId: id })
+        res.status(200).json({ id })
     }
 
 };
